@@ -1,0 +1,14 @@
+
+body {
+    margin: 2rem;
+}
+.control_group {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top:0.3rem;
+    margin-bottom:0.3rem;
+}
+input {
+    display: block;
+}
