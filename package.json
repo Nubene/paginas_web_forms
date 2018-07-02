@@ -19,6 +19,9 @@
   "homepage": "https://github.com/Nubene/paginas_web_forms#readme",
   "dependencies": {
     "bootstrap": "^4.1.1"
+  },
+  "devDependencies": {
+    "pug": "^2.0.3",
+    "pug-cli": "^1.0.0-alpha6"
   }
 }
-0000000000000000000000000000000000000000000000
