@@ -4,7 +4,10 @@
   "description": "Pruebas de Formularios",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parallelshell \"npm run server\"\"npm run pug\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pug": "pug -w -P ./06_Pug/Src -o ./06_Pug/Dist",
+    "Server":"http-server"  
   },
   "repository": {
     "type": "git",
